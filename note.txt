@@ -1,0 +1,8 @@
+-Framework motion:
+-React simple typewrite
+
+-Copy
+-Cá nhân hóa:
++ Đổi animation, màu sắc
++ Đổi link, chữ, project
++ Đổi tên Components
