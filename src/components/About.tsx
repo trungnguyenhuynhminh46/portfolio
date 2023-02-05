@@ -46,7 +46,7 @@ const About: React.FC<Props> = () => {
             </p>
             <div>
               <a
-                href="/resume.pdf"
+                href="/CV_MinhTrung_ReactJS.pdf"
                 className="py-2 px-4 rounded border border-solid border-white text-white bg-transparent mt-10 text-lg"
               >
                 My resume
