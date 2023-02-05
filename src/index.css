@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Space+Mono:wght@700&display=swap");
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    overflow-x: hidden;
+    @apply overflow-x-hidden;
   }
 }
 
@@ -12,4 +15,92 @@
   .container {
     @apply w-full max-w-[1200px] mx-auto px-5;
   }
+  .hero_btn {
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all duration-300 ease-linear hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
+  }
+  .badge {
+    position: relative;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(59 130 246);
+  }
+  .badge:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent rgb(59 130 246) transparent transparent;
+  }
+  .badge:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+    background-color: white;
+  }
+  input {
+    color-scheme: dark;
+  }
+  .input {
+    @apply p-5 bg-gray-800 text-gray-50 placeholder:text-gray-300 placeholder:text-sm font-bold border-none outline-none;
+  }
+}
+
+/* Slick casorel */
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
+  width: 100%;
+}
+.slick-next,
+.slick-prev {
+  z-index: 10;
+}
+.slick-next::before,
+.slick-prev::before {
+  color: gray;
+}
+.slick-next {
+  right: 6px;
+}
+.slick-prev {
+  left: 6px;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 99999px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

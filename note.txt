@@ -1,8 +1,23 @@
 -Framework motion:
--React simple typewrite
+-React simple typewrite:
+-React scrolll:
 
 -Copy
 -Cá nhân hóa:
 + Đổi animation, màu sắc
 + Đổi link, chữ, project
 + Đổi tên Components
+
+- tracking-[20px]: Khoảng cách giữa hai chữ cái là 20px
+- Trong phần Hero: Kết hợp flex cho container và absolute cho các thẻ con giúp các thẻ con layer lên nhau và được căng giữa
+https://googlechrome.github.io/samples/css-flexbox-abspos/
+--> Đọc sách về HTML, CSS, JS
+
+
+--> Cập nhật thêm template tailwind + Chụp hình (OK)
+--> Cập nhật toàn bộ readme
+- Viết lại CV đơn giản bằng word hoặc canvas
+- Thêm phần tải portfolio (Bổ sung)
+- Rải cv
+- Ôn lại ReactJS, các thư viện ReactJS
+- Start project clone nextflix song song với học lý thuyết NodeJS
