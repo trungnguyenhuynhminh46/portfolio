@@ -29,6 +29,7 @@ const portfolios: ProjectInfo[] = [
       "NestJS",
       "Docker",
     ],
+
     about:
       "This project is our team's effort to build a web-based game that allows drawing and guessing.",
   },
@@ -54,7 +55,14 @@ const portfolios: ProjectInfo[] = [
       "https://facebook-clone-ed1c2euop-trungnguyenhuynhminh46.vercel.app/",
     srcHref: "https://github.com/trungnguyenhuynhminh46/facebook-clone.git",
     title: "Facebook clone",
-    techs: ["Typescript", "Reactjs", "Tailwind", "Redux", "Redux-toolkit"],
+    techs: [
+      "Typescript",
+      "Reactjs",
+      "Tailwind",
+      "Redux",
+      "Redux-toolkit",
+      "ExpressJS",
+    ],
     about:
       "This project is my effort to rebuild one of the most popular social media platforms - Facebook.",
   },
